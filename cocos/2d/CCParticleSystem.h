@@ -256,7 +256,7 @@ public:
      */
     static Vector<ParticleSystem*>& getAllParticleSystems();
 public:
-    void addParticles(int count);
+    virtual void addParticles(int count);
     
     void stopSystem();
     /** Kill all living particles.
